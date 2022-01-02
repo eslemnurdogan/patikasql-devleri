@@ -1,0 +1,87 @@
+test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+create table employee (
+	id integer primary key,
+	name varchar(50) not null,
+	birtday date,
+	email varchar(100)
+);
+
+Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+insert into employee (id, name, birthday, email) values (1, 'Doria Dulwich', '2021-03-18', 'ddulwich0@hatena.ne.jp');
+insert into employee (id, name, birthday, email) values (2, 'Olav Camerana', '2021-06-25', 'ocamerana1@statcounter.com');
+insert into employee (id, name, birthday, email) values (3, 'Adler Gremane', '2021-06-01', 'agremane2@naver.com');
+insert into employee (id, name, birthday, email) values (4, 'Shane McCleverty', '2021-05-23', 'smccleverty3@google.com.br');
+insert into employee (id, name, birthday, email) values (5, 'Lexine Shearn', '2021-04-11', 'lshearn4@bloglines.com');
+insert into employee (id, name, birthday, email) values (6, 'Suzy Bloxham', '2021-01-11', 'sbloxham5@auda.org.au');
+insert into employee (id, name, birthday, email) values (7, 'Berte Hunston', '2021-07-29', 'bhunston6@myspace.com');
+insert into employee (id, name, birthday, email) values (8, 'Stirling McCoughan', '2021-06-06', 'smccoughan7@eepurl.com');
+insert into employee (id, name, birthday, email) values (9, 'Felicdad Hambrick', '2021-04-29', 'fhambrick8@nih.gov');
+insert into employee (id, name, birthday, email) values (10, 'Miguel Janaud', '2021-04-04', 'mjanaud9@who.int');
+insert into employee (id, name, birthday, email) values (11, 'Pauly Cornick', '2021-03-01', 'pcornicka@zimbio.com');
+insert into employee (id, name, birthday, email) values (12, 'Arnold Jeromson', '2021-06-20', 'ajeromsonb@rambler.ru');
+insert into employee (id, name, birthday, email) values (13, 'Jephthah Taw', '2021-02-20', 'jtawc@wufoo.com');
+insert into employee (id, name, birthday, email) values (14, 'Dotti Woltering', '2021-02-08', 'dwolteringd@chron.com');
+insert into employee (id, name, birthday, email) values (15, 'Leonardo Marshfield', '2021-09-01', 'lmarshfielde@bbb.org');
+insert into employee (id, name, birthday, email) values (16, 'Benedetto Brunn', '2021-06-27', 'bbrunnf@plala.or.jp');
+insert into employee (id, name, birthday, email) values (17, 'Osbert Prynne', '2021-01-26', 'oprynneg@fda.gov');
+insert into employee (id, name, birthday, email) values (18, 'Ferne Hollyard', '2021-11-27', 'fhollyardh@domainmarket.com');
+insert into employee (id, name, birthday, email) values (19, 'Ingaberg Statefield', '2021-03-05', 'istatefieldi@spotify.com');
+insert into employee (id, name, birthday, email) values (20, 'Randal Riordan', '2021-06-12', 'rriordanj@123-reg.co.uk');
+insert into employee (id, name, birthday, email) values (21, 'Augustina Spoor', '2021-01-13', 'aspoork@wordpress.org');
+insert into employee (id, name, birthday, email) values (22, 'Ag Fance', '2021-06-15', 'afancel@usa.gov');
+insert into employee (id, name, birthday, email) values (23, 'Beilul Neggrini', '2021-09-01', 'bneggrinim@biblegateway.com');
+insert into employee (id, name, birthday, email) values (24, 'Davis Leishman', '2021-12-23', 'dleishmann@wordpress.com');
+insert into employee (id, name, birthday, email) values (25, 'Dannie Mulcock', '2021-06-20', 'dmulcocko@addthis.com');
+insert into employee (id, name, birthday, email) values (26, 'Barbi Wilkes', '2021-02-06', 'bwilkesp@vimeo.com');
+insert into employee (id, name, birthday, email) values (27, 'Rhiamon Spieght', '2021-03-31', 'rspieghtq@house.gov');
+insert into employee (id, name, birthday, email) values (28, 'Tyne Conybear', '2021-08-11', 'tconybearr@answers.com');
+insert into employee (id, name, birthday, email) values (29, 'Andriana Lent', '2021-01-26', 'alents@sohu.com');
+insert into employee (id, name, birthday, email) values (30, 'Mercy Fitzpayn', '2021-04-18', 'mfitzpaynt@nih.gov');
+insert into employee (id, name, birthday, email) values (31, 'Margarete Willmer', '2021-05-26', 'mwillmeru@people.com.cn');
+insert into employee (id, name, birthday, email) values (32, 'Gilberta Lofty', '2021-05-05', 'gloftyv@nps.gov');
+insert into employee (id, name, birthday, email) values (33, 'Geno Evennett', '2021-04-04', 'gevennettw@amazon.co.jp');
+insert into employee (id, name, birthday, email) values (34, 'Gert Paulo', '2021-03-23', 'gpaulox@rambler.ru');
+insert into employee (id, name, birthday, email) values (35, 'Lucho Bowen', '2021-02-24', 'lboweny@canalblog.com');
+insert into employee (id, name, birthday, email) values (36, 'Juli Filipponi', '2021-11-04', 'jfilipponiz@marriott.com');
+insert into employee (id, name, birthday, email) values (37, 'Marina Cicerone', '2021-03-11', 'mcicerone10@phpbb.com');
+insert into employee (id, name, birthday, email) values (38, 'Loralyn Older', '2021-10-10', 'lolder11@meetup.com');
+insert into employee (id, name, birthday, email) values (39, 'Dory Baumadier', '2021-06-29', 'dbaumadier12@ehow.com');
+insert into employee (id, name, birthday, email) values (40, 'Teirtza Slessor', '2021-07-21', 'tslessor13@geocities.com');
+insert into employee (id, name, birthday, email) values (41, 'Ira Engelmann', '2021-02-13', 'iengelmann14@elpais.com');
+insert into employee (id, name, birthday, email) values (42, 'Vaughn Van Schafflaer', '2021-05-04', 'vvan15@123-reg.co.uk');
+insert into employee (id, name, birthday, email) values (43, 'Grethel Keming', '2021-06-02', 'gkeming16@multiply.com');
+insert into employee (id, name, birthday, email) values (44, 'Maddalena Doyley', '2021-01-11', 'mdoyley17@umn.edu');
+insert into employee (id, name, birthday, email) values (45, 'Petr Pauls', '2021-02-19', 'ppauls18@webnode.com');
+insert into employee (id, name, birthday, email) values (46, 'Tiphany Sandlin', '2021-02-09', 'tsandlin19@washington.edu');
+insert into employee (id, name, birthday, email) values (47, 'Odilia Bulter', '2021-03-31', 'obulter1a@ocn.ne.jp');
+insert into employee (id, name, birthday, email) values (48, 'Catina Dunderdale', '2021-03-23', 'cdunderdale1b@harvard.edu');
+insert into employee (id, name, birthday, email) values (49, 'Bee Merry', '2021-03-07', 'bmerry1c@spotify.com');
+insert into employee (id, name, birthday, email) values (50, 'Gran Hodcroft', '2021-10-24', 'ghodcroft1d@comcast.net');
+//verileri aldığım site https://www.mockaroo.com/
+
+Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+uplate employee
+set name = 'eslosh'
+where id = 2
+
+update employee
+set email = 'eslmnrd@gmail.com'
+where name = 'eslosh';
+
+update employee
+set birthday= '23.03.98'
+
+// kontrol amaçlı inceliyorsanız bu soru için farklı bi görüş daha iyi olur
+
+
+Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım
+DELETE FROM employee
+WHERE name = 'eslosh';
+
+DELETE FROM employee
+WHERE id = 5;
+
+
+// kontrol amaçlı inceliyorsanız bu soru için farklı bi görüş daha iyi olur
+...
+
